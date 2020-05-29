@@ -1,0 +1,79 @@
+html {
+  background-color: #0e1221;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+#app h3 {
+ font-size: 1.6rem;
+ padding: 30px 16px; 
+ margin: 0;
+ color: #469ef0;
+}
+
+#app {
+  margin: 30px;
+  padding: 16px;
+  width: 100vw;
+  max-width: 350px;
+  background-color: #1c2d3eaa;
+  transition: 2s;
+}
+
+
+#app ul {
+  padding: 10px 16px;
+  list-style: none;
+  color: white;
+}
+
+#app li {
+  margin: 10px 0;
+  background-color:#355565aa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  width: 100%;
+  max-width: 325px;
+  height: 32px;
+  box-shadow: 0px 2px 3px -2px #fff;
+  border-radius: 4px;
+}
+
+
+#app a{
+  font-weight: bold;
+  text-decoration: none;
+  color:  #ff0000;
+  padding: 0 20px;
+}
+
+#app input {
+  width: 240px;
+  padding: 0 10px;
+  height: 50px;
+  border: 0;
+  border-radius: 4px;
+  margin: 0 16px;
+  background-color: #355565cc;
+  color: white;
+  font-size: 0.9rem;
+}
+
+#app button{
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: #469ef0cc;
+  cursor: pointer;
+}
+
